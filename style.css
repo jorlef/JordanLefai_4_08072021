@@ -1030,6 +1030,13 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .img-responsive {
+        max-width: 80%;
+        margin: 0 auto;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 400px) {

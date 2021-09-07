@@ -18,12 +18,22 @@ a:hover {
     cursor: pointer;
 }
 
-a:focus:not(:active) {
-    box-shadow: 0 0 2px 5px #c27956;
+header a:focus:not(:active) {
+    border-radius: 25px;
+    box-shadow: 0 0 1px 2px #c27956;
 }
 
-button:focus {
-    box-shadow: 0 0 2px 5px #c27956;
+footer a:focus:not(:active) {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 2px #c27956;
+}
+
+a:focus:not(:active) {
+    box-shadow: 0 0 1px 2px #c27956;
+}
+
+button:focus:not(:active) {
+    box-shadow: 0 0 1px 2px #c27956;
 }
 
 footer a {

@@ -687,6 +687,11 @@ p {
     margin: auto auto auto auto;
 }
 
+#bloc-5-cta h2 {
+    position: relative;
+    z-index: 5;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;

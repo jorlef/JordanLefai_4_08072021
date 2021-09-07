@@ -1093,6 +1093,14 @@ h4 {
         height: 300px;
         object-fit: cover;
     }
+
+    #bloc-4-portfolio > div > div:nth-child(2) > div:first-child {
+        margin-bottom: 50px;
+    }
+
+    #bloc-4-portfolio > div > div:nth-child(3) > div:first-child {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 400px) {

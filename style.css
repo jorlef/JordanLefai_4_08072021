@@ -18,6 +18,18 @@ a:hover {
     cursor: pointer;
 }
 
+a:focus:not(:active) {
+    box-shadow: 0 0 2px 5px #c27956;
+}
+
+button:focus {
+    box-shadow: 0 0 2px 5px #c27956;
+}
+
+footer a {
+    display: inline-block;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;

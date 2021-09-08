@@ -654,7 +654,7 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .modal-body {
-    padding-bottom: 45px;
+    padding-bottom: 60px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -1088,7 +1088,6 @@ h4 {
     }
 
     .img-responsive {
-        max-width: 80%;
         margin: 0 auto;
         height: 300px;
         object-fit: cover;
